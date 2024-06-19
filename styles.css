@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #000927;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+.playwrite-nz-font {
+  font-family: "Playwrite NZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: Playwrite NZ;
+    color: lightyellow;
+    font-size: 32px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 70vh;
+    pointer-events: none;
+}
+
+button {
+    font-family: Tahoma;
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    border-color: yellow;
+    background-color: #032ba3;
+    font-size: 18px;
+    color: yellow;
+    width: auto;
+    border-radius: 8px;
+    pointer-events: all;
+}
+
+.gridbox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+    pointer-events: none;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    pointer-events: none;
+}
+
+.gridSquares {
+    display: flex;
+    pointer-events: all;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border: 1px solid;
+    border-color: #000000;
+
+}
