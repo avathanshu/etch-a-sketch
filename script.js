@@ -40,10 +40,16 @@ gridbutton.addEventListener("click", () => {
         element.remove()
     })
     let input = parseInt(prompt("Enter dimensions (Ex: 2 for 2x2)"));
-    gridMaker(input);
-    let gridSquare = document.querySelectorAll(".gridSquares")
-    gridSquare.forEach(element => element.addEventListener("mouseover", () => {
-        element.style.backgroundColor = "black"
-    }))
-})
 
+    if (input > 100) {
+        alert("ALERT! Maximum Limit Reached!")
+    }
+    
+    else {
+        gridMaker(input);
+        let gridSquare = document.querySelectorAll(".gridSquares")
+        gridSquare.forEach(element => element.addEventListener("mouseover", () => {
+            element.style.backgroundColor = "black"
+        }))
+    }
+})
